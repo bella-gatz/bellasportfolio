@@ -1,0 +1,130 @@
+/* hello there
+    before you THINK you're done, make sure to check your notes!
+    - "TODO" - you know you just didn't want to do this
+    - "check" - unsure of the output, something to CHECK
+    - "!" - i'm proud of this and deserve a gold star
+*/
+
+h1, museomodernoSemiBold {
+  font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0;
+}
+
+h2, museomodernoSemiBold {
+  font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25pt;
+}
+
+a, p, robotoXLight {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+}
+
+body {
+    color: #383838;
+    background-color: #efeee8;
+    padding: 0;
+    margin: 0;
+    margin-left: 1rem;
+    /* height: 100%; */
+    /* width: 100%; */
+}
+
+a {
+    color: #efeee8;
+    text-decoration: none;
+    background-color: #383838;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+/* nav {
+    background: #39A2AE;
+    background: linear-gradient(162deg, rgba(57, 162, 174, 1) 0%, rgba(177, 133, 167, 1) 50%, rgba(188, 128, 52, 1) 100%);
+} */
+
+.pageWrapper {
+    margin: 0 auto;
+}
+
+.welcome {
+  font-size: 50pt;
+  transition: all 5s ease ;
+  cursor: pointer;
+}
+
+.welcome:hover {
+    font-size: 100pt;
+}
+
+.aboutwrapper {
+    /* margin: 1rem; */
+}
+
+.abouttexttitle {
+    border: 1px solid #383838;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 5%;
+    /* position: absolute;
+    left: 5px; */
+}
+
+.abouttexttext {
+    /* position: relative;
+    top: 5px; */
+    width: 50%;
+}
+
+.aboutpicwrapper {
+    /* margin: 1rem; */
+}
+
+.aboutpic {
+    width: 300px;
+    position: absolute;
+    right: 10px;
+    top: 200px;
+}
+
+.aboutlink {
+    transition: all .5s linear;
+}
+
+.aboutlink:hover {
+    background-color: #39A2AE;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    /* check: content will go behind? */
+}
+
+/* TODO: 
+- media queries
+    - footer when overlapped w text
+    - width for text */
+
+/* TODO: 
+ - flag saying 'free palistine' */
