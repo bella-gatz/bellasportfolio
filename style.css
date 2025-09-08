@@ -21,7 +21,7 @@ h2, museomodernoSemiBold {
   font-size: 25pt;
 }
 
-a, p, robotoXLight {
+a, p, li, robotoXLight {
   font-family: "Roboto Flex", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -46,8 +46,7 @@ body {
     padding: 0;
     margin: 0;
     margin-left: 1rem;
-    /* height: 100%; */
-    /* width: 100%; */
+    margin-right: 1rem;
 }
 
 a {
@@ -56,6 +55,22 @@ a {
     background-color: #383838;
     padding-left: 3px;
     padding-right: 3px;
+    border-radius: 10%;
+    transition: all .5s ease;
+}
+
+a:hover {
+    background-color: #39A2AE;
+}
+
+img {
+    border-radius: 30px;
+}
+
+li {
+    list-style-image: url("photos/icons/listicon.png");
+    list-style-type: square;
+    margin-left: 1rem;
 }
 
 /* nav {
@@ -71,6 +86,7 @@ a {
   font-size: 50pt;
   transition: all 5s ease ;
   cursor: pointer;
+  width: fit-content;
 }
 
 .welcome:hover {
@@ -81,11 +97,11 @@ a {
     /* margin: 1rem; */
 }
 
-.abouttexttitle {
+.headingbox {
     border: 1px solid #383838;
     width: fit-content;
     padding: 1rem;
-    border-radius: 5%;
+    border-radius: 10px;
     /* position: absolute;
     left: 5px; */
 }
@@ -97,27 +113,48 @@ a {
 }
 
 .aboutpicwrapper {
-    /* margin: 1rem; */
+    /* position: absolute;
+    right: 10px;
+    top: 200px;
+    width: fit-content; */
 }
 
+
 .aboutpic {
-    width: 300px;
+    width: 20%;
+    transition: opacity 1s ease;
     position: absolute;
     right: 10px;
     top: 200px;
 }
 
-.aboutlink {
-    transition: all .5s linear;
+.aboutpic:hover {
+    opacity: .5;
+    cursor: pointer;
+
 }
 
-.aboutlink:hover {
-    background-color: #39A2AE;
+
+
+
+
+.aboutpicframe {
+    position: relative;
+    right: -250px;
+    top: -250px;
+    /* border-radius: 15%; */
+    border-top-left-radius: 30px;
+    /* border: 1px solid #383838; */
+    background-color: #efeee8;
+    width: 50px;
+    height: 300px;
 }
 
 footer {
-    position: absolute;
-    bottom: 10px;
+    position: sticky;
+    bottom: 0px;
+    background-color: #efeee8;
+    opacity: .5;
     /* check: content will go behind? */
 }
 
