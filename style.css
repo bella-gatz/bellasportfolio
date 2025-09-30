@@ -45,9 +45,7 @@ body {
     background-color: #efeee8;
     padding: 0;
     margin: 0;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
+    margin: 1rem;
 
 a {
     color: #efeee8;
@@ -84,13 +82,18 @@ li {
 
 .welcome {
   font-size: 50pt;
-  transition: all 5s ease ;
+  transition: all 2s ease ;
   cursor: pointer;
   width: fit-content;
+  text-shadow: 1px 1px 0 #ffffff;
+  padding: 1rem;
+  border-radius: 30px;
 }
 
 .welcome:hover {
-    font-size: 100pt;
+    /* font-size: 100pt; */
+    text-shadow: 5px 5px 0 #39A2AE;
+    background-color: #cacac4;    
 }
 
 .aboutwrapper {
@@ -130,12 +133,7 @@ li {
 
 .aboutpic:hover {
     opacity: .5;
-    cursor: pointer;
-
 }
-
-
-
 
 
 .aboutpicframe {
